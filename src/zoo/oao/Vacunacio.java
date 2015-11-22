@@ -12,11 +12,11 @@ import java.util.GregorianCalendar;
  *
  * @author Oriol Alex Oriol
  */
-public class Vacunació {
+public class Vacunacio {
     protected String[] vacuna;
     protected Date[] data;
 
-    public Vacunació() {
+    public Vacunacio() {
 		
     }
     
@@ -31,5 +31,12 @@ public class Vacunació {
         int a = 1;
         return this.vacuna[a];
     }
+
+    @Override
+    public String toString() {
+        return "Vacunacio{" + "vacuna=" + vacuna + ", data=" + data + '}';
+    }
+    
+    
      
 }
