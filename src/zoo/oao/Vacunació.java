@@ -31,6 +31,5 @@ public class Vacunació {
         int a = 1;
         return this.vacuna[a];
     }
-    
-    
+     
 }
